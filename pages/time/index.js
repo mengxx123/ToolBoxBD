@@ -105,6 +105,11 @@ Page({
     //计时
     var interval = setInterval(function () {
       if (interval_hour == 0 && interval_minute == 0 && interval_second == 0) {
+        that.setData({
+          hour: interval_hour,
+          minute: interval_minute,
+          second: interval_second
+        })
         return;
       }
       if (interval_second > 0) {

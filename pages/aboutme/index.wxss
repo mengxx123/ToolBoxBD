@@ -1,17 +1,17 @@
 
 .nearCard-fl {
   width: 40%;
-  height: 90rpx;
+  height: 80rpx;
   float: left;
 }
 
 .nearCard-fl  {
- padding-top: 30rpx;
+ padding-top: 35rpx;
  padding-left: 5%; 
 }
 
 .nearCard-fr {
-  padding-top: 30rpx;
+  padding-top: 35rpx;
   padding-right: 5%;
   float: right;
 }
@@ -73,12 +73,7 @@
 
 /*图片大小自适应*/
 
-image {
-  width: 100%;
-  height: 100%;
-  vertical-align: top;
-  display: block;
-}
+
 
 .card {
   width: 95%;

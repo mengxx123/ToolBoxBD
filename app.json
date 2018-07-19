@@ -14,7 +14,6 @@
     "pages/weatherinfo/index",
     "pages/idcard/index",
     "pages/phone/index",
-    "pages/common/common",
     "pages/express/index",
     "pages/aboutme/index",
     "pages/logs/logs"
@@ -23,7 +22,8 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#FFF",
     "navigationBarTitleText": "ToolBoxBD",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
   },
    "tabBar": {
      
@@ -42,5 +42,11 @@
       }
     ]
 
-  }
+  },
+    "netWorkTimeout": {
+      "request": 10000,
+      "connectSocket": 10000,
+      "uploadFile": 10000,
+      "downloadFile": 10000
+    }
 }
