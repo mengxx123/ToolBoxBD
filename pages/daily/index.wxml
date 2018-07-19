@@ -1,0 +1,8 @@
+<!--pages/daily/index.wxml-->
+<view class="content">
+  <view><image src="{{dailyInfo.picture}}"></image></view>
+  <audio poster="{{dailyInfo.picture}}" name="{{dailyInfo.caption}}"  src="{{dailyInfo.tts}}" id="myAudio" controls ></audio>
+  <view class='enote'>{{dailyInfo.content}}</view>
+  <view class='znote'>{{dailyInfo.note}}</view>
+  <view class="date">{{time}}</view>
+</view>

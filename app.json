@@ -1,0 +1,46 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/weather/index",
+    "pages/almanac/index",
+    "pages/calc/index",
+    "pages/daily/index",
+    "pages/ip/index",
+    "pages/bmi/index",
+    "pages/time/index",
+    "pages/joke/index",
+    "pages/jokep/index",
+    "pages/weatherinfo/index",
+    "pages/idcard/index",
+    "pages/phone/index",
+    "pages/common/common",
+    "pages/express/index",
+    "pages/aboutme/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "ToolBoxBD",
+    "navigationBarTextStyle":"black"
+  },
+   "tabBar": {
+     
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"img/icon_home.png",
+        "selectedIconPath":"img/icon_home_selected.png"
+      },
+      {
+        "pagePath": "pages/aboutme/index",
+        "text": "其他",
+        "iconPath": "img/icon_member.png",
+        "selectedIconPath": "img/icon_member_selected.png"
+      }
+    ]
+
+  }
+}

@@ -1,0 +1,15 @@
+<!--pages/ip/index.wxml-->
+<view class='content'>
+  <view id="inputArea">
+    <text id="ip">ip地址查询:</text>
+    <input bindinput='inputIp' placeholder="请输入ip..." auto-focus/>
+    <button bindtap='btnClick'>查询</button>
+  </view>
+
+  <view id="showArea">
+    <view id="result">查询结果</view>
+    <view class="ziti">IP：{{ip}}</view>
+    <view class="ziti">area：{{ipInfo.result.area}}</view>
+    <view class="ziti">location: {{ipInfo.result.location}}</view>
+  </view>
+  </view>

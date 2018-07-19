@@ -1,0 +1,36 @@
+/* pages/almanac/index.wxss */
+page{
+  height:100%;
+}
+.content{
+  background: #E0EEE0;
+  width: auto;
+  height:100%;
+}
+.result{
+ padding-top: 20rpx;
+ padding-bottom: 20rpx;
+ padding-left:6rpx; 
+}
+.green{
+  color: green;
+  margin-left:0; 
+}
+.red{
+  color: red;
+  margin-left:0;
+}
+.row1{
+  border-bottom: 1px solid #000000;
+}
+.row2{
+  border-bottom: 1px solid #000000;
+}
+.title{
+  font-size: 60rpx;
+  color: red;
+  text-align: center;
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+  border-bottom: 1px solid #000000;
+}

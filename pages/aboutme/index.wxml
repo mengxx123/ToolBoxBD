@@ -1,0 +1,39 @@
+<view class='content'>
+  <block wx:for-items="{{DataInfo}}" wx:key>
+    <view class='card  b-shadow' bindtap='toggleBtn' id="{{item.id}}">
+      <view class='nearCard-fl'>
+         {{item.term}}
+      </view>
+      <view class='nearCard-fr'>
+        <view>
+           {{item.url}}
+        </view>
+      </view>
+      <view class='down clearfix {{uhide==item.id?"":"hidden"}}'>
+          <view hidden='{{item.id == 2}}'>
+            <view class='row1 toprow'>手机品牌</view>
+            <view class='row2'>{{brand}} </view>
+            <view class='row1'>手机型号</view>
+            <view class='row2'>{{model}}</view>
+            <view class='row1'>手机系统平台</view>
+            <view class='row2'>{{platform}} </view>
+            <view class='row1'>操作系统版本</view>
+            <view class='row2'>{{system}}</view>
+            <view class='row1'>微信版本号</view>
+            <view class='row2'>{{version}}</view>
+          </view>
+          <view hidden='{{item.id == 1}}'>
+            <view class='row1 toprow'>Name</view>
+            <view class='row2'>{{Name}}</view>
+            <view class='row1'>Team</view>
+            <view class='row2'>{{Team}}</view>
+            <view class='row1'>Slogan</view>
+            <view class='row2'>{{Slogan}}</view>
+            <view class='row1'>Version</view>
+            <view class='row2'>{{Version}}</view>
+          </view>
+      </view>
+
+    </view>
+  </block>
+</view>

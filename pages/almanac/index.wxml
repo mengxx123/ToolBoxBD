@@ -1,0 +1,22 @@
+<!--pages/almanac/index.wxml-->
+<view class="content">
+ <view class="title"> 
+    <view class="section">  
+    <picker mode="date" value="{{date}}" start="1978-01-01" end="2080-1-23" bindchange="bindDateChange">  
+      <view class="picker">  
+        {{time}}  黄历
+      </view>  
+    </picker>  
+    </view>
+  </view>
+  <view class="row2 result">阳历：{{almanacInfo.result.yangli}}</view>
+  <view class="row1 result">阴历：{{almanacInfo.result.yinli}}</view>
+  <view class="row2 result">彭祖百忌：{{almanacInfo.result.baiji}}</view>
+  <view class="row1 result">冲煞：{{almanacInfo.result.chongsha}}</view>
+  <view class="row2 result">五星：{{almanacInfo.result.wuxing}}</view>
+  <view class="row1 result green">【宜】：{{almanacInfo.result.yi}}</view>
+  <view class="row2 result red">【忌】：{{almanacInfo.result.ji}}</view>
+  <view class="row1 result">吉神宜趋：{{almanacInfo.result.jishen}}</view>
+  <view class="row2 result">凶神宜忌	：{{almanacInfo.result.xiongshen}}</view>
+</view>
+  

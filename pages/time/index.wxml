@@ -1,0 +1,20 @@
+<!--pages/clock/clock.wxml-->
+<view class="container clock_container">
+  <view class="clock_style">
+    <div bindlongpress='modalinput' id="hour">{{hour}}</div> :<div bindlongpress='modalinput' id="minute"> {{minute}} </div>:<div bindlongpress='modalinput' id="second"> {{second}}</div>
+    <modal hidden="{{hiddenmodalput}}" title="请输入时间" confirm-text="提交" bindcancel="cancel" bindconfirm="confirm" > 
+      <form bindreset='cleanInput'>
+        <input type='number'placeholder="只有数字是有效输入" bindinput='setTime'/><view hidden="{{is}}" style="color:red;">{{msg}}</view>
+      </form>
+    </modal> 
+  </view>
+  <view class="button_style">
+    <button bindtap='endClock'>结束</button>
+    <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+    <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+    <button bindtap='stopClock'>暂停</button>
+    <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+    <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+    <button bindtap='startClock'>开始</button>
+  </view>
+</view>

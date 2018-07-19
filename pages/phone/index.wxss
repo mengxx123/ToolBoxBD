@@ -1,0 +1,48 @@
+/* pages/phone/index.wxss */
+page{
+  height: 100%;
+}
+.content{
+  width: 100%;
+  height: 100%;
+}
+#inputArea{
+  width: auto;
+  height: 30%;
+  padding-top: 150rpx;
+  background: #4876FF;
+}
+#tel{
+  color: white;
+  font-size: 30rpx;
+  margin-left: 10px;
+}
+input{
+  height: 20%;
+  border:2rpx solid white;
+  margin:0 10px;
+  border-radius: 6px;
+  margin-bottom: 40rpx;
+  background: white;
+}
+button{
+  background:#E0EEE0;
+  width: 100px;
+}
+#showArea{
+  width: auto;
+  height: 50.5%;
+  background: 	#E0EEE0; 
+  padding-top: 80rpx;
+  padding-left: 40rpx;
+  font-family: serif;
+}
+#result{
+  font-size: 60rpx;
+  font-weight: bold;
+  margin-bottom:30px;
+}
+.ziti{
+  margin-bottom: 15px;
+  font-weight: bold;
+}

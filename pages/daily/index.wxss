@@ -1,0 +1,20 @@
+/* pages/daily/index.wxss */
+.content{
+  background: #E0EEE0;
+  width: auto;
+  height:1200rpx;
+}
+.enote{
+  text-indent: 2em;
+  margin-bottom: 20rpx;
+}
+.znote{
+  text-indent: 2em;
+}
+#myAudio{
+  margin-left: 20rpx;
+}
+.date{
+  margin-right: 20rpx;
+  float: right;
+}

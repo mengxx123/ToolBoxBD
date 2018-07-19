@@ -1,0 +1,16 @@
+<!--pages/idcard/index.wxml-->
+<view class='content'>
+  <view id="inputArea">
+    <text id="tel">身份证查询:</text>
+    <input bindinput='inputcardno' placeholder="输入身份证号..." auto-focus/>
+    <button bindtap='btnClick'>查询</button>
+  </view>
+
+  <view id="showArea">
+    <view id="result">查询结果</view>
+    <view class="ziti">身份证号：{{cardno}}</view>
+    <view class="ziti">生　　日：{{cardInfo.result.birthday}}</view>
+    <view class="ziti">地　　址: {{cardInfo.result.area}}</view>
+    <view class="ziti">性　　别: {{cardInfo.result.sex}}</view>
+  </view>
+</view>

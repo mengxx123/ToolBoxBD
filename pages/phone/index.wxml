@@ -1,0 +1,16 @@
+<!--pages/phone/index.wxml-->
+<view class='content'>
+  <view id="inputArea">
+    <text id="tel">手机号码归属地查询:</text>
+    <input bindinput='inputphone' placeholder="输入手机号..." auto-focus/>
+    <button bindtap='btnClick'>查询</button>
+  </view>
+
+  <view id="showArea">
+    <view id="result">查询结果</view>
+    <view class="ziti">手机号：{{phone}}</view>
+    <view class="ziti">运营商：{{phoneInfo.data.sp}}</view>
+    <view class="ziti">省　份: {{phoneInfo.data.province}}</view>
+    <view class="ziti">城　市: {{phoneInfo.data.city}}</view>
+  </view>
+  </view>
